@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: test-api_production
-  username: test-api
-  password: <%= ENV['TEST-API_DATABASE_PASSWORD'] %>
+  database: testapi_production
+  username: deploy
+  password: magentorails
